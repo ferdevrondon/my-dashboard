@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 interface Props {
     path: string;
-    icon: JSX.Element;
+    icon: React.ReactNode;
     title:string;
     subTitle?:string;
 
